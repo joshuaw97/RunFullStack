@@ -1,4 +1,4 @@
-import Link from 'next/link'
+
  
 
 export const metadata = {
@@ -6,5 +6,5 @@ export const metadata = {
 }
 
 export default function Page() {
-  return <Link href="/weather">Weather</Link>
+  return <h1>Welcome to the home page</h1>
 }
