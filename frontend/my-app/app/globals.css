@@ -2,3 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+    background: #FAF9F6;
+    @apply text-lg;
+    font-family: 'Roboto;'
+}
+
+nav a, nav span {
+    @apply bg-indigo-500;
+    
+
+   
+}
+
+main nav {
+
+    @apply border-0;
+    @apply bg-indigo-500;
+}
