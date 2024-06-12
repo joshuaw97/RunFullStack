@@ -1,22 +1,19 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 body {
-    background: #FAF9F6;
-    @apply text-lg;
-    font-family: 'Roboto;'
+    background:  #F8F0E3;
 }
 
-nav a, nav span {
-    @apply bg-indigo-500;
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #b7c297;
     
-
-   
+    
 }
 
-main nav {
-
-    @apply border-0;
-    @apply bg-indigo-500;
+nav a {
+    margin: 5px;
+    background-color: black;
+    color: white;
+    
 }
